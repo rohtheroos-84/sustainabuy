@@ -1,0 +1,193 @@
+import { Product } from '../types';
+
+export const products: Product[] = [
+  {
+    id: '1',
+    title: 'Apple iPhone 15 (128 GB) - Natural Titanium',
+    price: 79900,
+    originalPrice: 89900,
+    discount: 11,
+    rating: 4.3,
+    reviews: 12847,
+    image: 'https://images.pexels.com/photos/887751/pexels-photo-887751.jpeg?auto=compress&cs=tinysrgb&w=400',
+    images: [
+      'https://images.pexels.com/photos/887751/pexels-photo-887751.jpeg?auto=compress&cs=tinysrgb&w=400',
+      'https://images.pexels.com/photos/47261/pexels-photo-47261.jpeg?auto=compress&cs=tinysrgb&w=400'
+    ],
+    category: 'Electronics',
+    brand: 'Apple',
+    description: 'iPhone 15 features a durable color-infused glass and aluminum design.',
+    features: ['6.1-inch Super Retina XDR display', 'A16 Bionic chip', 'Advanced camera system'],
+    freeDelivery: true,
+    deliveryDate: 'Tomorrow',
+    choice: true,
+    isLocaLeaf: true,
+    warehouseLocation: 'Chennai'
+  },
+  {
+    id: '2',
+    title: 'Bamboo Fiber Dinner Set - 16 Piece Eco-Friendly Tableware',
+    price: 2499,
+    originalPrice: 3999,
+    discount: 38,
+    rating: 4.6,
+    reviews: 3241,
+    image: 'https://images.pexels.com/photos/6113657/pexels-photo-6113657.jpeg?auto=compress&cs=tinysrgb&w=400',
+    category: 'Home & Kitchen',
+    brand: 'EcoLiving',
+    description: 'Sustainable bamboo fiber dinner set that\'s biodegradable and dishwasher safe.',
+    features: ['100% biodegradable', 'Dishwasher safe', 'BPA free', 'Lightweight'],
+    isSustainable: true,
+    ecoLeaves: 5,
+    freeDelivery: true,
+    deliveryDate: 'Wed, 15 Nov',
+    isLocaLeaf: true,
+    sellerLocation: 'Chennai'
+  },
+  {
+    id: '3',
+    title: 'Organic Cotton Bed Sheet Set - Queen Size',
+    price: 3299,
+    originalPrice: 4999,
+    discount: 34,
+    rating: 4.4,
+    reviews: 1876,
+    image: 'https://images.pexels.com/photos/1080721/pexels-photo-1080721.jpeg?auto=compress&cs=tinysrgb&w=400',
+    category: 'Home & Kitchen',
+    brand: 'Pure Living',
+    description: 'Luxuriously soft organic cotton sheets that are GOTS certified.',
+    features: ['GOTS certified organic cotton', 'Hypoallergenic', 'Breathable fabric'],
+    isSustainable: true,
+    ecoLeaves: 8,
+    freeDelivery: true,
+    deliveryDate: 'Thu, 16 Nov'
+  },
+  {
+    id: '4',
+    title: 'Sony WH-1000XM5 Wireless Noise Canceling Headphones',
+    price: 29990,
+    originalPrice: 34990,
+    discount: 14,
+    rating: 4.5,
+    reviews: 8934,
+    image: 'https://images.pexels.com/photos/3394650/pexels-photo-3394650.jpeg?auto=compress&cs=tinysrgb&w=400',
+    category: 'Electronics',
+    brand: 'Sony',
+    description: 'Industry-leading noise canceling with the all-new Auto NC Optimizer.',
+    features: ['30-hour battery life', 'Quick charge', 'Multipoint connection'],
+    freeDelivery: true,
+    deliveryDate: 'Tomorrow',
+    sponsored: true,
+    isLocaLeaf: true,
+    warehouseLocation: 'Chennai'
+  },
+  {
+    id: '5',
+    title: 'Recycled Plastic Outdoor Furniture Set - 4 Piece',
+    price: 15999,
+    originalPrice: 22999,
+    discount: 30,
+    rating: 4.2,
+    reviews: 567,
+    image: 'https://images.pexels.com/photos/1571460/pexels-photo-1571460.jpeg?auto=compress&cs=tinysrgb&w=400',
+    category: 'Furniture',
+    brand: 'GreenSpace',
+    description: 'Weather-resistant furniture made from 100% recycled ocean plastic.',
+    features: ['Made from recycled ocean plastic', 'Weather resistant', 'UV protected'],
+    isSustainable: true,
+    ecoLeaves: 15,
+    freeDelivery: true,
+    deliveryDate: 'Mon, 20 Nov'
+  },
+  {
+    id: '6',
+    title: 'Reusable Stainless Steel Water Bottle with Temperature Display',
+    price: 899,
+    originalPrice: 1299,
+    discount: 31,
+    rating: 4.7,
+    reviews: 5432,
+    image: 'https://images.pexels.com/photos/3985062/pexels-photo-3985062.jpeg?auto=compress&cs=tinysrgb&w=400',
+    category: 'Sports & Outdoors',
+    brand: 'HydroTech',
+    description: 'Smart water bottle with digital temperature display and 24hr insulation.',
+    features: ['24-hour temperature retention', 'LED temperature display', 'BPA free'],
+    isSustainable: true,
+    ecoLeaves: 3,
+    freeDelivery: true,
+    deliveryDate: 'Tomorrow',
+    isLocaLeaf: true,
+    sellerLocation: 'Chennai'
+  },
+  {
+    id: '7',
+    title: 'Samsung Galaxy Tab S9 - 11 inch Display',
+    price: 54999,
+    originalPrice: 64999,
+    discount: 15,
+    rating: 4.4,
+    reviews: 2156,
+    image: 'https://images.pexels.com/photos/1334597/pexels-photo-1334597.jpeg?auto=compress&cs=tinysrgb&w=400',
+    category: 'Electronics',
+    brand: 'Samsung',
+    description: 'Premium Android tablet with S Pen included for productivity and creativity.',
+    features: ['11-inch Dynamic AMOLED display', 'S Pen included', '8GB RAM', '128GB storage'],
+    freeDelivery: true,
+    deliveryDate: 'Tomorrow'
+  },
+  {
+    id: '8',
+    title: 'Wooden Kitchen Utensil Set - 6 Piece Handcrafted',
+    price: 1299,
+    originalPrice: 1999,
+    discount: 35,
+    rating: 4.5,
+    reviews: 892,
+    image: 'https://images.pexels.com/photos/4226769/pexels-photo-4226769.jpeg?auto=compress&cs=tinysrgb&w=400',
+    category: 'Home & Kitchen',
+    brand: 'Artisan Craft',
+    description: 'Handcrafted wooden kitchen utensils made from sustainable bamboo wood.',
+    features: ['Sustainable bamboo wood', 'Handcrafted design', 'Food-safe finish', 'Easy to clean'],
+    isSustainable: true,
+    ecoLeaves: 4,
+    freeDelivery: true,
+    deliveryDate: 'Fri, 17 Nov',
+    isLocaLeaf: true,
+    sellerLocation: 'Chennai'
+  }
+];
+
+export const heroProducts = [
+  {
+    id: 'hero-1',
+    title: 'Smartphones',
+    subtitle: 'Up to 40% off',
+    image: 'https://images.pexels.com/photos/887751/pexels-photo-887751.jpeg?auto=compress&cs=tinysrgb&w=800',
+    link: '/category/smartphones'
+  },
+  {
+    id: 'hero-2',
+    title: 'Sustainable Living',
+    subtitle: 'Eco-friendly choices',
+    image: 'https://images.pexels.com/photos/6113657/pexels-photo-6113657.jpeg?auto=compress&cs=tinysrgb&w=800',
+    link: '/eco-store'
+  },
+  {
+    id: 'hero-3',
+    title: 'Home Essentials',
+    subtitle: 'Starting ₹199',
+    image: 'https://images.pexels.com/photos/1080721/pexels-photo-1080721.jpeg?auto=compress&cs=tinysrgb&w=800',
+    link: '/category/home'
+  }
+];
+
+export const categories = [
+  'Electronics',
+  'Fashion',
+  'Home & Kitchen',
+  'Beauty & Personal Care',
+  'Sports & Outdoors',
+  'Books',
+  'Automotive',
+  'Toys & Games'
+];
